@@ -1,3 +1,4 @@
+#------Chinese-----
 1.NSFD文件夹内代码用来支撑论文中的“Experiment with analytical solutions”。
 2.“plot_elevation_and_depth”文件夹内文件用来绘制高程和初始水深，并生成JPG文件保存在同一目录下。该文件代码可单独运行。
 3.“NSFD_solver”文件夹内代码为一个整体，在“main”文件内开始运行。
@@ -5,3 +6,11 @@
     a.用以求解论文中模型方程的精确解，RungeKutta解和论文所提出的守恒性非标准有限差分解
     b.绘制上述解。
 
+
+#-----English-----
+1. The code in the NSFD folder is used to support "Experiment with analytical solutions" in the paper.
+2. Files in the "plot_elevation_and_depth" folder are used to draw the elevation and initial water depth, and JPG files are generated and saved in the same directory. The file code can be run separately.
+3. The code in the NSFD_solver folder is a whole and starts to run in the "main" file.
+4. Functions of the NSFD_solver folder:
+    a. It is used to solve the exact solution of the model equation in the paper, RungeKutta solution and the conservative nonstandard finite difference solution proposed in the paper
+    b. Draw the above solution. 

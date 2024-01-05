@@ -1,0 +1,32 @@
+<VRTDataset rasterXSize="256" rasterYSize="200">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
+  <GeoTransform>  2.6397600000000000e+05,  2.0000000000000000e+00,  0.0000000000000000e+00,  6.6481000000000000e+05,  0.0000000000000000e+00, -2.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.38614737987518</MDI>
+      <MDI key="STATISTICS_MEAN">0.03763976626854</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.001000165939331</MDI>
+      <MDI key="STATISTICS_STDDEV">0.049692964052422</MDI>
+    </Metadata>
+    <NoDataValue>-9999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.00100016593933105</HistMin>
+        <HistMax>0.386147379875183</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>3866|3913|3475|2364|1123|899|818|993|1455|409|335|523|539|1132|708|468|341|256|1033|555|271|240|273|760|522|210|123|170|221|1049|141|29|28|31|786|56|0|18|43|753|34|0|0|47|749|129|3|0|43|569|195|2|0|19|31|742|2|0|17|20|544|3|0|10|12|466|6|0|0|27|533|36|4|0|19|248|303|0|0|19|0|369|0|0|20|0|298|0|0|20|0|273|0|0|0|14|264|0|0|0|17|143|73|0|0|21|0|150|0|0|23|0|134|0|0|24|0|138|0|0|20|0|152|0|0|0|19|318|0|0|0|16|0|143|0|0|17|0|61|0|0|22|0|33|0|0|17|0|11|0|0|0|19|10|0|0|0|19|6|0|0|0|11|0|0|0|0|14|0|0|0|0|20|0|0|0|0|0|12|0|0|0|0|15|0|0|0|0|12|0|0|0|0|10|0|0|0|0|8|0|0|0|0|0|15|0|0|0|0|11|0|0|0|0|11|0|0|0|0|8|0|0|0|0|7|0|0|0|0|0|7|0|0|0|0|4|0|0|0|0|10|0|0|0|0|9|0|0|0|0|5|0|0|0|0|2</HistCounts>
+      </HistItem>
+    </Histograms>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">Depth (14OCT2023 01 30 00).Terrain.want4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="200" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="200" />
+      <DstRect xOff="0" yOff="0" xSize="256" ySize="200" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

@@ -1,0 +1,75 @@
+ 
+                                              HEC-RAS - River Analysis System
+ 
+ 
+Project File:  d:\programme\CA_NSFD_code\HEC_RAS_simulation\example\example.prj
+ 
+Project Name:  example
+ 
+ 
+Plan Name:     plan
+ 
+Short ID:      p02_EM
+ 
+
+Starting Time:   13Oct2023 2400
+
+Ending Time:     14Oct2023 0130
+
+
+                ################################################
+                #                                              #
+                #                                              #
+                #       1D and 2D Unsteady Flow Module         #
+                #                                              #
+                #                                              #
+                #          HEC-RAS 6.3 August 2022             #
+                #                                              #
+                #             19OCT23 at 15:00:51              #
+                #                                              #
+                ################################################
+                
+ 
+ 
+ 
+
+         US Inflow      DS Outflow       Lat Hydro        SA Hydro     Groundwater      Diversions   Precip Excess   Precip Excess
+                                                                                                             (m^3)            (mm)
+         *********      **********       *********        ********     ***********      **********   *************   *************
+                                                                                                                          0.000000
+
+    Start 1D Reach  Final 1D Reach   Starting SA's      Final SA's
+    **************  **************   *************      **********
+                                                                  
+
+
+
+                 ***   Volume Accounting for 2D Flow Area in 1000 m^3   ***
+
+           2D Area    Starting Vol      Ending Vol      Cum Inflow     Cum Outflow           Error   Percent Error   Precip Excess   Precip Excess
+                                                    (incl. precip)                                                           (m^3)            (mm)
+           *******    ************      **********      **********     ***********           *****   *************   *************   *************
+ 
+ 
+       Perimeter 1                           5.886           5.886                        0.000391        0.006651           5.886     2892388333.
+
+
+
+                 ***  Total Volume Accounting (for the entire model) in 1000 m^3   ***
+
+Total Boundary Flux of Water In            5.886
+Total Boundary Flux of Water Out        0.000000
+
+Starting Volume                         0.000000
+Ending Volume                              5.886
+
+Precipitation Excess (m^3)                 5.886
+Precipitation Excess (mm)            2892388333.
+
+
+                             Error   Percent Error
+                             *****   *************
+                          0.000391        0.006651
+
+
+

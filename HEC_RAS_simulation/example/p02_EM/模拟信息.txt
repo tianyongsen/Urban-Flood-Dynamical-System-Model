@@ -1,0 +1,45 @@
+Plan: 'plan' (example.p01)
+Simulation started at: 19Oct2023 03:00:49 PM
+
+Writing Geometry...
+Perimeter 1: Mesh property tables are current.
+Completed Writing Geometry
+
+	
+Geometric Preprocessor HEC-RAS 6.3 August 2022
+ 
+
+Finished Processing Geometry
+
+Writing Event Conditions ...
+Completed Writing Event Condition Data
+
+
+Performing Unsteady Flow Simulation  HEC-RAS 6.3 August 2022
+ 
+	
+Unsteady Input Summary:
+     2D Unsteady SWE-EM Equation Set (stricter momentum)
+
+Overall Volume Accounting Error in 1000 m^3:          0.000391
+Overall Volume Accounting Error as percentage:          0.006651
+Please review "Computational Log File" output for volume accounting details
+
+Writing Results to DSS
+
+Finished Unsteady Flow Simulation
+
+1D Post Process Skipped (simulation is all 2D)
+
+Computations Summary
+
+Computation Task	Time(hh:mm:ss)
+Completing Geometry	       1
+Preprocessing Geometry	<1
+Completing Event Conditions	<1
+Unsteady Flow Computations	   21:46
+Complete Process	   21:47
+
+Computation Speed	Simulation/Runtime
+Unsteady Flow Computations	4.13x
+Complete Process	4.13x

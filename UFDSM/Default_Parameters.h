@@ -20,9 +20,9 @@ public:
     //====================================
 	//输入文件    
     //====================================
-    std::string  inputfile_ele = "../inp_and_result/input_file/paper/paper_dem.txt";
-    std::string  inputfile_roughness = "../inp_and_result/input_file/paper/paper_n.txt";
-    std::string  inputfile_rain = "../inp_and_result/input_file/paper/paper_rain.txt";   
+    std::string  inputfile_ele = "paper_dem.txt";
+    std::string  inputfile_roughness = "paper_n.txt";
+    std::string  inputfile_rain = "paper_rain.txt";   
 
    
 
@@ -30,7 +30,7 @@ public:
     // 结果报告
     //===================================
     
-    std::string  report_file= "../inp_and_result/result_file/paper_result_2/result";     //文件前缀，最终结果会给出时间编号 
+    std::string  report_file= "result";     //文件前缀，最终结果会给出时间编号 
     //const double report_inteval= 40;         //要求可以整除时间步长，要不然报告的时刻不是相应的计算时刻  如报告间隔为10s，步长为3s
     const int report_inteval = 3000;          //用迭代次数代替具体的时刻。因为NSFD一般不经过某个具体时刻表。报告的时刻为report_inteval*phi(h)
     std::vector<int> report_time = { };

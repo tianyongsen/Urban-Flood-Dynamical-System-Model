@@ -4,8 +4,8 @@ A Novel Urban Flood Dynamical System Model and a Corresponding Nonstandard Finit
 -----English--------
 1. This document is used to support the submission of the paper. The thesis is entitled "A Novel Urban Flood Dynamical System Model anda Corresponding Nonstandard Finite Difference Method". To protect research work, the current license is the default, and if the paper is accepted, lisence will be changed to MIT.
 2. The code in the file is divided into two modules:
-    a.UFDSM folder, all written in C++ language, supports the "Experiment in urban region" in the fourth part of the paper "Numerical experiments".
-    b.NSFD folder, all written in Python language, support the "Experiment with analytical solutions" in the fourth part of the paper "Numerical experiments".
+   a.UFDSM folder, all written in C++ language, supports the "Experiment in urban region" in the fourth part of the paper "Numerical experiments".
+   b.NSFD folder, all written in Python language, support the "Experiment with analytical solutions" in the fourth part of the paper "Numerical experiments".
 
 
 -----Chinese--------

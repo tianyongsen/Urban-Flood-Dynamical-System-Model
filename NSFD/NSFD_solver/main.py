@@ -62,9 +62,7 @@ def main():
 			Ht_slice_NSFD[i,j]=Ht_NSFD[j][nindex[i]]  #切片   Ht_NSFD为list,Ht_slice_NSFD为array
 
 	plot_result.plot_result_six(Ht_slice,Ht_slice_NSFD,Ht_slice_RK,timeindex,timeindex_NSFD)
-	#下面这个有可计算误差。
-	#plot_result.plot_result_three(Ht_slice,Ht_slice_NSFD,Ht_slice_RK,timeindex)
-	#plot_result.plot_result_two(Ht_slice,Ht_slice_NSFD,timeindex)
+	
 
 	#计算误差大小
 	print("NSFD误差： RK误差") 
